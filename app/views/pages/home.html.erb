@@ -1,17 +1,2 @@
-<!DOCUTYPE html>
-
-<html>
-	<head> 
-		<title>TestApp</title>
-		
-		<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-		<% csrf_meta_tags %>
-	</head>
-	
-	
-	<body>
-		<h1> Welcome </h1>
-		<% yield %>
-	</body>
-</html>
+<h1>THis is the home page for my blog </h1>
+<%= link_to "Alpha Blog", articles_path %> 
